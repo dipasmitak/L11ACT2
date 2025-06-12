@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Float Example</title>
+        <style>
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                margin: 20px;
+            }
+
+            h2 {
+                text-align: center;
+                color: deeppink;
+            }
+
+            #Left {
+                float: left;
+                margin-right: 20px;
+                width: 300px;
+                height: 300px;
+                box-shadow: 0 4px 10px greenyellow;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            #Right {
+                float: right;
+                margin-left: 20px;
+                width: 300px;
+                height: 300px;
+                box-shadow: 0 4px 10px orange;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Float Left amd Float Right</h2>
+
+        <img id="Left" src="left.jpg">
+
+        <img id="Right" src="right.jpg">
+    </body>
+</html>
